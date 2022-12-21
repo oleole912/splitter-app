@@ -1,0 +1,63 @@
+@import '../../styles/settings.scss';
+
+.display {
+    background-color: $color-dark-cyan;
+    border-radius: $radius;
+    flex: 50%;
+    padding: 25px;
+}
+
+.display_option {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.display_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: $color-white;
+    font-size: ($base-size * 0.5);
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: $color-grayish-cyan;
+    font-size: ($base-size * 0.4);
+    margin: 0;
+}
+
+.amount {
+    color: $color-strong-cyan;
+    font-size: $base-size;
+    font-size: ($base-size * 1.5);
+    text-align: right;
+    flex: 50%;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: $color-strong-cyan;
+    color: $color-dark-cyan;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: ($radius * 0.5);
+    border: none;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: ($base-size * 0.6);
+    font-weight: 400;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: $color-light-grayish-cyan;
+    cursor: pointer;
+}
+
+.resetDisabled {
+    background-color: $color-dark-grayish-cyan;
+}

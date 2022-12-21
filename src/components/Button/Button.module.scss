@@ -1,0 +1,25 @@
+@import '../../styles/settings.scss';
+
+.button {
+    background-color: $color-dark-cyan;
+    padding: 10px 20px;
+    border-radius: ($radius * 0.5);
+    border: none;
+    color: $color-very-light-grayish-cyan;
+    width: 30%;
+    font-family: 'Space Mono', monospace;
+    font-size: ($base-size * 0.6);
+    font-weight: 400;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: $color-strong-cyan;
+    color: $color-dark-cyan;
+    cursor: pointer;
+}
+
+.active {
+    background-color: $color-strong-cyan;
+    color: $color-dark-cyan;
+}

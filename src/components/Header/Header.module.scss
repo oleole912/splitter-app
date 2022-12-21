@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.header {
+    position: absolute;
+    top: -20%;
+    left: 47%;
+    transform: translate(-20%, -50%);
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-dark-grayish-cyan;
+}

@@ -1,0 +1,7 @@
+@import '../../styles/settings.scss';
+
+.title {
+    margin: 20px 0 5px;
+    font-size: ($base-size * 0.5);
+    color: $color-dark-grayish-cyan;
+}
