@@ -9,3 +9,9 @@
     position: relative;
 }
 
+@media only screen and (max-width: 620px) {
+    .container {
+        height: 100vh;
+    }
+}
+
