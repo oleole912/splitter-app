@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+@import './settings';
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -7,4 +8,5 @@
 
 body {
     font-family: 'Space Mono', monospace;
+    background-color: $color-light-grayish-cyan;
 }
